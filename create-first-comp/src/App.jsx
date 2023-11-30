@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Hello from './Hello';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React Components</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  return <div>
+    <h2>my youtube channel</h2>
+    <Hello/ >
+  </div>
 }
 
-export default App
+export default App;
+
+
+// import React from 'react';
+// import SsButton from './SsButton';
+
+// function App() {
+//   return (<div>
+//       <h1>This is Hello World</h1>
+//       <button>Subscribe My Youtube Channel</button>
+//       <br />
+//       <SsButton/ >
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// App.jsx
+// import React from 'react';
+// import SsCodingButton from './SsCodingButton';
+
+// function App() {
+//   return (
+//     <div>
+//       <h1>My Name is SS</h1>
+//       <SsCodingButton />
+//     </div>
+//   );
+// }
+
+// export default App;

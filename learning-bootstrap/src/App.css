@@ -1,0 +1,27 @@
+h1 {
+  font-weight: 700; /* Use a value between 100 and 900 */
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.todo-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ss-button {
+  min-width: 80px;
+}
+
+.ss-row {
+  margin: 10px 5px;
+}
+
+/* btn {
+  font-size: large;
+} */

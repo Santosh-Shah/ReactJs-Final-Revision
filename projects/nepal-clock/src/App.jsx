@@ -1,12 +1,18 @@
+import ClockHeading from "./components/ClockHeading";
+import ClockSlogan from "./components/ClockSlogan";
+import CurrentDateTime from "./components/CurrentDateTime";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
 function App() {
 
   let currDateTime = new Date();
 
   return (
     <div>
-      <h1>Nepal Clock</h1>
-      <p>This is the clock that show the time of Nepal all the times</p>
-      <p>This is the current time: {currDateTime.getDate()} - {currDateTime.getTime()}</p>
+      <ClockHeading />
+      <ClockSlogan />
+      <CurrentDateTime />
     </div>
   );
 }
